@@ -14,6 +14,18 @@
 		0C3F220222BB75060091F86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3F220022BB75060091F86B /* LaunchScreen.storyboard */; };
 		0C3F220D22BB75060091F86B /* Send_and_ReciveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F220C22BB75060091F86B /* Send_and_ReciveTests.swift */; };
 		0C3F221822BB75060091F86B /* Send_and_ReciveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F221722BB75060091F86B /* Send_and_ReciveUITests.swift */; };
+		0C3F222C22BB75B10091F86B /* ParentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222622BB75B10091F86B /* ParentPresenter.swift */; };
+		0C3F222D22BB75B10091F86B /* ParentWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222722BB75B10091F86B /* ParentWorker.swift */; };
+		0C3F222E22BB75B10091F86B /* ParentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222822BB75B10091F86B /* ParentRouter.swift */; };
+		0C3F222F22BB75B10091F86B /* ParentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222922BB75B10091F86B /* ParentModels.swift */; };
+		0C3F223022BB75B10091F86B /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222A22BB75B10091F86B /* ParentViewController.swift */; };
+		0C3F223122BB75B10091F86B /* ParentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F222B22BB75B10091F86B /* ParentInteractor.swift */; };
+		0C3F223B22BB76740091F86B /* ChildPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223522BB76740091F86B /* ChildPresenter.swift */; };
+		0C3F223C22BB76740091F86B /* ChildWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223622BB76740091F86B /* ChildWorker.swift */; };
+		0C3F223D22BB76740091F86B /* ChildRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223722BB76740091F86B /* ChildRouter.swift */; };
+		0C3F223E22BB76740091F86B /* ChildModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223822BB76740091F86B /* ChildModels.swift */; };
+		0C3F223F22BB76740091F86B /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223922BB76740091F86B /* ChildViewController.swift */; };
+		0C3F224022BB76740091F86B /* ChildInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F223A22BB76740091F86B /* ChildInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		0C3F221322BB75060091F86B /* Send and ReciveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send and ReciveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3F221722BB75060091F86B /* Send_and_ReciveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_and_ReciveUITests.swift; sourceTree = "<group>"; };
 		0C3F221922BB75060091F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3F222622BB75B10091F86B /* ParentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentPresenter.swift; sourceTree = "<group>"; };
+		0C3F222722BB75B10091F86B /* ParentWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentWorker.swift; sourceTree = "<group>"; };
+		0C3F222822BB75B10091F86B /* ParentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentRouter.swift; sourceTree = "<group>"; };
+		0C3F222922BB75B10091F86B /* ParentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModels.swift; sourceTree = "<group>"; };
+		0C3F222A22BB75B10091F86B /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		0C3F222B22BB75B10091F86B /* ParentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentInteractor.swift; sourceTree = "<group>"; };
+		0C3F223522BB76740091F86B /* ChildPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPresenter.swift; sourceTree = "<group>"; };
+		0C3F223622BB76740091F86B /* ChildWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildWorker.swift; sourceTree = "<group>"; };
+		0C3F223722BB76740091F86B /* ChildRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRouter.swift; sourceTree = "<group>"; };
+		0C3F223822BB76740091F86B /* ChildModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildModels.swift; sourceTree = "<group>"; };
+		0C3F223922BB76740091F86B /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		0C3F223A22BB76740091F86B /* ChildInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,7 @@
 		0C3F21F622BB75050091F86B /* Send and Recive */ = {
 			isa = PBXGroup;
 			children = (
+				0C3F222522BB757C0091F86B /* Scenes */,
 				0C3F21F722BB75050091F86B /* AppDelegate.swift */,
 				0C3F21F922BB75050091F86B /* ViewController.swift */,
 				0C3F21FB22BB75050091F86B /* Main.storyboard */,
@@ -123,6 +148,41 @@
 				0C3F221922BB75060091F86B /* Info.plist */,
 			);
 			path = "Send and ReciveUITests";
+			sourceTree = "<group>";
+		};
+		0C3F222522BB757C0091F86B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F223322BB75D80091F86B /* Parent */,
+				0C3F223422BB75EC0091F86B /* Child */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0C3F223322BB75D80091F86B /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F222622BB75B10091F86B /* ParentPresenter.swift */,
+				0C3F222722BB75B10091F86B /* ParentWorker.swift */,
+				0C3F222822BB75B10091F86B /* ParentRouter.swift */,
+				0C3F222922BB75B10091F86B /* ParentModels.swift */,
+				0C3F222A22BB75B10091F86B /* ParentViewController.swift */,
+				0C3F222B22BB75B10091F86B /* ParentInteractor.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		0C3F223422BB75EC0091F86B /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				0C3F223522BB76740091F86B /* ChildPresenter.swift */,
+				0C3F223622BB76740091F86B /* ChildWorker.swift */,
+				0C3F223722BB76740091F86B /* ChildRouter.swift */,
+				0C3F223822BB76740091F86B /* ChildModels.swift */,
+				0C3F223922BB76740091F86B /* ChildViewController.swift */,
+				0C3F223A22BB76740091F86B /* ChildInteractor.swift */,
+			);
+			path = Child;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3F223E22BB76740091F86B /* ChildModels.swift in Sources */,
+				0C3F222C22BB75B10091F86B /* ParentPresenter.swift in Sources */,
+				0C3F222D22BB75B10091F86B /* ParentWorker.swift in Sources */,
+				0C3F223C22BB76740091F86B /* ChildWorker.swift in Sources */,
 				0C3F21FA22BB75050091F86B /* ViewController.swift in Sources */,
+				0C3F223F22BB76740091F86B /* ChildViewController.swift in Sources */,
+				0C3F223B22BB76740091F86B /* ChildPresenter.swift in Sources */,
+				0C3F224022BB76740091F86B /* ChildInteractor.swift in Sources */,
+				0C3F223022BB75B10091F86B /* ParentViewController.swift in Sources */,
+				0C3F222F22BB75B10091F86B /* ParentModels.swift in Sources */,
+				0C3F223D22BB76740091F86B /* ChildRouter.swift in Sources */,
 				0C3F21F822BB75050091F86B /* AppDelegate.swift in Sources */,
+				0C3F223122BB75B10091F86B /* ParentInteractor.swift in Sources */,
+				0C3F222E22BB75B10091F86B /* ParentRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
